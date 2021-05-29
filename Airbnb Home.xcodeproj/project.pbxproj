@@ -15,6 +15,8 @@
 		AD754BA92662FDC800247B3D /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD754BA82662FDC800247B3D /* UIImage+Helpers.swift */; };
 		AD754BAB2662FE5E00247B3D /* UIFonts+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD754BAA2662FE5E00247B3D /* UIFonts+Custom.swift */; };
 		AD754BAE2662FEA400247B3D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD754BAD2662FEA400247B3D /* HomeView.swift */; };
+		AD754BB02662FFB800247B3D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD754BAF2662FFB800247B3D /* HeaderView.swift */; };
+		AD754BB32663001B00247B3D /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD754BB22663001B00247B3D /* Content.swift */; };
 		AD99059A26588B3A00A7E1D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99059926588B3A00A7E1D5 /* AppDelegate.swift */; };
 		AD99059C26588B3A00A7E1D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99059B26588B3A00A7E1D5 /* SceneDelegate.swift */; };
 		AD99059E26588B3A00A7E1D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99059D26588B3A00A7E1D5 /* HomeViewController.swift */; };
@@ -30,6 +32,8 @@
 		AD754BA82662FDC800247B3D /* UIImage+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
 		AD754BAA2662FE5E00247B3D /* UIFonts+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFonts+Custom.swift"; sourceTree = "<group>"; };
 		AD754BAD2662FEA400247B3D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AD754BAF2662FFB800247B3D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AD754BB22663001B00247B3D /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		AD99059626588B3A00A7E1D5 /* Airbnb Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airbnb Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD99059926588B3A00A7E1D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD99059B26588B3A00A7E1D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,8 +83,17 @@
 			isa = PBXGroup;
 			children = (
 				AD754BAD2662FEA400247B3D /* HomeView.swift */,
+				AD754BAF2662FFB800247B3D /* HeaderView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AD754BB12663000500247B3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD754BB22663001B00247B3D /* Content.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		AD99058D26588B3A00A7E1D5 = {
@@ -102,6 +115,7 @@
 		AD99059826588B3A00A7E1D5 /* Airbnb Home */ = {
 			isa = PBXGroup;
 			children = (
+				AD754BB12663000500247B3D /* Models */,
 				AD99059D26588B3A00A7E1D5 /* HomeViewController.swift */,
 				AD754BA12662FB8C00247B3D /* ProgrammaticView.swift */,
 				AD754BAC2662FE8900247B3D /* Views */,
@@ -190,8 +204,10 @@
 				AD754BAE2662FEA400247B3D /* HomeView.swift in Sources */,
 				AD754BA52662FCD900247B3D /* UIView+Helpers.swift in Sources */,
 				AD99059E26588B3A00A7E1D5 /* HomeViewController.swift in Sources */,
+				AD754BB32663001B00247B3D /* Content.swift in Sources */,
 				AD99059A26588B3A00A7E1D5 /* AppDelegate.swift in Sources */,
 				AD754BA92662FDC800247B3D /* UIImage+Helpers.swift in Sources */,
+				AD754BB02662FFB800247B3D /* HeaderView.swift in Sources */,
 				AD754BA72662FD5C00247B3D /* UIStackView+Helpers.swift in Sources */,
 				AD754BAB2662FE5E00247B3D /* UIFonts+Custom.swift in Sources */,
 				AD754BA22662FB8C00247B3D /* ProgrammaticView.swift in Sources */,
