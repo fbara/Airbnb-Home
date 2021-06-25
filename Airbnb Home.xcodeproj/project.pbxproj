@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD05848A26863788006F5B44 /* NSCollectionLayoutSection+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05848926863788006F5B44 /* NSCollectionLayoutSection+Layout.swift */; };
 		AD754B9D2662FA2D00247B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD754B9C2662FA2D00247B3D /* Assets.xcassets */; };
 		AD754BA02662FB6400247B3D /* Anchorage in Frameworks */ = {isa = PBXBuildFile; productRef = AD754B9F2662FB6400247B3D /* Anchorage */; };
 		AD754BA22662FB8C00247B3D /* ProgrammaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD754BA12662FB8C00247B3D /* ProgrammaticView.swift */; };
@@ -22,9 +23,11 @@
 		AD99059E26588B3A00A7E1D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99059D26588B3A00A7E1D5 /* HomeViewController.swift */; };
 		AD9905A126588B3A00A7E1D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD99059F26588B3A00A7E1D5 /* Main.storyboard */; };
 		AD9905A626588B3D00A7E1D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9905A426588B3D00A7E1D5 /* LaunchScreen.storyboard */; };
+		ADFA68972673F5E000BCAFC9 /* SmallSquareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA68962673F5E000BCAFC9 /* SmallSquareCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD05848926863788006F5B44 /* NSCollectionLayoutSection+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCollectionLayoutSection+Layout.swift"; sourceTree = "<group>"; };
 		AD754B9C2662FA2D00247B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD754BA12662FB8C00247B3D /* ProgrammaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticView.swift; sourceTree = "<group>"; };
 		AD754BA42662FCD900247B3D /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
@@ -41,6 +44,7 @@
 		AD9905A026588B3A00A7E1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD9905A526588B3D00A7E1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD9905A726588B3D00A7E1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFA68962673F5E000BCAFC9 /* SmallSquareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallSquareCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		AD99059826588B3A00A7E1D5 /* Airbnb Home */ = {
 			isa = PBXGroup;
 			children = (
+				ADFA68952673F59400BCAFC9 /* Collection View Elements */,
 				AD754BB12663000500247B3D /* Models */,
 				AD99059D26588B3A00A7E1D5 /* HomeViewController.swift */,
 				AD754BA12662FB8C00247B3D /* ProgrammaticView.swift */,
@@ -123,6 +128,15 @@
 				AD754B9B2662FA1300247B3D /* Resources */,
 			);
 			path = "Airbnb Home";
+			sourceTree = "<group>";
+		};
+		ADFA68952673F59400BCAFC9 /* Collection View Elements */ = {
+			isa = PBXGroup;
+			children = (
+				ADFA68962673F5E000BCAFC9 /* SmallSquareCell.swift */,
+				AD05848926863788006F5B44 /* NSCollectionLayoutSection+Layout.swift */,
+			);
+			path = "Collection View Elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD05848A26863788006F5B44 /* NSCollectionLayoutSection+Layout.swift in Sources */,
 				AD754BAE2662FEA400247B3D /* HomeView.swift in Sources */,
 				AD754BA52662FCD900247B3D /* UIView+Helpers.swift in Sources */,
+				ADFA68972673F5E000BCAFC9 /* SmallSquareCell.swift in Sources */,
 				AD99059E26588B3A00A7E1D5 /* HomeViewController.swift in Sources */,
 				AD754BB32663001B00247B3D /* Content.swift in Sources */,
 				AD99059A26588B3A00A7E1D5 /* AppDelegate.swift in Sources */,
