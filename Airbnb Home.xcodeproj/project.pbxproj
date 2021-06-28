@@ -23,6 +23,7 @@
 		AD99059E26588B3A00A7E1D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99059D26588B3A00A7E1D5 /* HomeViewController.swift */; };
 		AD9905A126588B3A00A7E1D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD99059F26588B3A00A7E1D5 /* Main.storyboard */; };
 		AD9905A626588B3D00A7E1D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9905A426588B3D00A7E1D5 /* LaunchScreen.storyboard */; };
+		ADDDC05E268A21D000DF1463 /* ContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDDC05D268A21D000DF1463 /* ContentViewCell.swift */; };
 		ADFA68972673F5E000BCAFC9 /* SmallSquareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFA68962673F5E000BCAFC9 /* SmallSquareCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		AD9905A026588B3A00A7E1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD9905A526588B3D00A7E1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD9905A726588B3D00A7E1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDDC05D268A21D000DF1463 /* ContentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewCell.swift; sourceTree = "<group>"; };
 		ADFA68962673F5E000BCAFC9 /* SmallSquareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallSquareCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 			children = (
 				ADFA68962673F5E000BCAFC9 /* SmallSquareCell.swift */,
 				AD05848926863788006F5B44 /* NSCollectionLayoutSection+Layout.swift */,
+				ADDDC05D268A21D000DF1463 /* ContentViewCell.swift */,
 			);
 			path = "Collection View Elements";
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				AD754BA72662FD5C00247B3D /* UIStackView+Helpers.swift in Sources */,
 				AD754BAB2662FE5E00247B3D /* UIFonts+Custom.swift in Sources */,
 				AD754BA22662FB8C00247B3D /* ProgrammaticView.swift in Sources */,
+				ADDDC05E268A21D000DF1463 /* ContentViewCell.swift in Sources */,
 				AD99059C26588B3A00A7E1D5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

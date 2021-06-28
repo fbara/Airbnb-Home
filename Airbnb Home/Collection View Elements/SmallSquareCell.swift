@@ -8,7 +8,9 @@
 import Anchorage
 import UIKit
 
-final class SmallSquareView: ProgrammmaticView {
+typealias SmallSquareCell = ContentCell<SmallSquareView>
+
+final class SmallSquareView: ProgrammmaticView, ContentConfiguringView {
     
     private let imageView = UIImageView()
     private let stack = UIStackView()
@@ -44,36 +46,11 @@ final class SmallSquareView: ProgrammmaticView {
         titleLabel.text = content?.title
         subtitleLabel.text = content?.subtitle
         imageView.image = UIImage(named: content?.image)
+        
     }
 }
 
-final class SmallSquareCell: UICollectionViewCell {
-    private lazy var view: SmallSquareView = .init()
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        constrain()
-    }
-    
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        constrain()
-    }
-    
-    private func constrain() {
-        contentView.addSubview(view)
-        view.edgeAnchors == contentView.edgeAnchors
-    }
-    
-    func configure(with content: Content?) {
-        view.configure(with: content)
-    }
-    
-    static func registration(showSeparator: @escaping (IndexPath) -> Bool = { _ in false }) -> UICollectionView.CellRegistration<SmallSquareCell, Content> {
-            UICollectionView.CellRegistration { cell, indexPath, content in
-                cell.configure(with: content)
-            }
-        }
+
     
 //    static func registration() -> UICollectionView.CellRegistration<SmallSquareCell, Content> {
 //        UICollectionView.CellRegistration<SmallSquareCell, Content> {
@@ -82,4 +59,3 @@ final class SmallSquareCell: UICollectionViewCell {
 //        }
 //
 //    }
-}
